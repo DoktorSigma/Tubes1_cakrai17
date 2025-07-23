@@ -6,7 +6,7 @@ melakukan transisi status keadaan jika ingin melakukan aksi atau fungsi yang ber
 Implementasinya adalah untuk mensimulasikan logika sekuensial atau mengontrol arus pengeksekusian fungsi. 
 FSM bisa digunakan dalam banyak bidang, seperti matematika, kecerdasan buatan, video games, linguistik, 
 dan lain hal-nya.
-
+Referensi: https://medium.com/@mlbors/what-is-a-finite-state-machine-6d8dec727e2c
 
 Implementasi: 
 
@@ -33,7 +33,7 @@ Kelas `FSM`:
 
 
 
-Konstruktor (`FSM()` dan `FSM(uint32_t delay)`)**:
+Konstruktor (`FSM()` dan `FSM(uint32_t delay)`):
      Menginisialisasi `currentState` ke `INIT`, `lastHeartbeat` dan `errorCount` ke 0, serta `moveCount` ke 0.
      Vektor `stateHistory` dikosongkan untuk memastikan awal yang bersih.
      Konstruktor berparameter juga mengatur `delay` awal.
@@ -102,4 +102,4 @@ Ini memanggil `robotFSM.start()` untuk memulai operasi FSM.
 
 Implementasi dan pembuatan kode dilakukan dengan bantuan AI Tools seperti Gemini dan proses pembelajaran
 dan materi berasal dari Handbook CaKrai 17 dan Gemini AI pula. Semoga dikedepannya, saya dapat mendalami lebih
-mengenai OOP dan C++ secara keseluruhan. Sekian, Terimakasih!!
+mengenai OOP dan C++ secara keseluruhan. Sekian, Terima kasih !!
